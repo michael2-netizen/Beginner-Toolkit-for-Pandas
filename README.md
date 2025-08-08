@@ -1,4 +1,5 @@
-![image.png](attachment:image.png)
+<img width="512" height="208" alt="image" src="https://github.com/user-attachments/assets/87e11b12-42be-47df-a553-aa8d2472ff55" />
+
  # <u>Getting Started with Pandas</u>
 ##  <u>1. Objective</u>:
 1. Understand what Pandas is and its role in data analysis
@@ -20,7 +21,8 @@ At its core, **Pandas** provides two primary data structures:
 
 The **DataFrame** is the most commonly used structure and is ideal for handling tabular data.
 
-![image.png](attachment:image.png)
+<img width="541" height="394" alt="image" src="https://github.com/user-attachments/assets/0d0b74dd-70c2-4cbc-a91a-98f03ce933c5" />
+
 
 Pandas comes with built-in support for **reading and writing** a variety of file formats and data sources, including:
 
@@ -36,7 +38,8 @@ Parquet
 
 To load data, use functions that start with **read_, such as read_csv() or read_excel()**. Similarly, to export or store data, use functions that start with **to_, such as to_csv() or to_sql().**
 
-![image.png](attachment:image.png)
+<img width="1115" height="302" alt="image" src="https://github.com/user-attachments/assets/55ca6ab0-eddf-4427-8f65-84b6d5a80aff" />
+
 
 *Where is it used:*
 
@@ -68,17 +71,20 @@ To load data, use functions that start with **read_, such as read_csv() or read_
 
 * Install Pandas with pip
 
-![WhatsApp%20Image%202025-08-07%20at%2004.12.42_28213ed3.jpg](attachment:WhatsApp%20Image%202025-08-07%20at%2004.12.42_28213ed3.jpg)
+<img width="1600" height="232" alt="image" src="https://github.com/user-attachments/assets/36cb5780-7668-479a-9e29-760939f3b0ed" />
+
 
 * (Optional) To install with additional performance dependencies:
 
-![WhatsApp%20Image%202025-08-07%20at%2004.15.46_8ad67edc.jpg](attachment:WhatsApp%20Image%202025-08-07%20at%2004.15.46_8ad67edc.jpg)
+<img width="1600" height="231" alt="image" src="https://github.com/user-attachments/assets/6ac71b36-a0ab-43e6-8ca3-5da55e61037d" />
+
 
 * This installs optional dependencies like numexpr and bottleneck for faster operations on large datasets.
 * **verify the installation:**
 You can open a Python shell or Jupyter notebook and run the code below:
 
-![WhatsApp%20Image%202025-08-07%20at%2004.26.59_ba25a16d.jpg](attachment:WhatsApp%20Image%202025-08-07%20at%2004.26.59_ba25a16d.jpg)
+<img width="1600" height="384" alt="image" src="https://github.com/user-attachments/assets/7c5b7ecf-dad4-4d40-a823-67e518417bbb" />
+
 
 ## <u>5.Working With Pandas Example</u>
 For our first example, we will use a CSV file containing the Ames Housing dataset—a real estate dataset—to demonstrate the functionality of the pandas library in Python programming.
@@ -93,6 +99,7 @@ We use df.head() to view the first 5 rows of the dataset. This gives us a quick 
 ### Step 4: View Column Names
 To understand the structure of the dataset, we print out all the column names using df.columns.tolist().
 * Data Exploration
+
 | Function        | Description                                                 |
 |----------------|-------------------------------------------------------------|
 | `df.head(n)`    | First n rows (default 5)                                    |
@@ -105,6 +112,7 @@ To understand the structure of the dataset, we print out all the column names us
 | `df.sample(n)`  | Random sample of n rows                                     |
 | `df.nunique()`  | Count of unique values per column                           |
 * Data Selection / Filtering
+
 | Syntax                               | Description                     |
 | ------------------------------------ | ------------------------------- |
 | `df['Column']`                       | Select a single column          |
@@ -119,8 +127,9 @@ Before performing any analysis, it's important to inspect and clean the data. Th
 
 #### Check for Missing Values
 When dealing with very many missing values in one column that's not important for your analysis, the best action is to drop the entire column.
-Below are a few more functions for data cleaning using pandas library:
+Below are a few more functions for data cleaning using the pandas library:
 * Data Cleaning
+
 | Function               | Description                     |
 | ---------------------- | ------------------------------- |
 | `df.isnull()`          | Detect missing values           |
